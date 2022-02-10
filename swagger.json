@@ -1,0 +1,22 @@
+{  
+    "swaggerDefinition": {
+        "swagger": "2.0",
+        "info": {
+          "version": "1.0.0", 
+          "title": "Manufactured API",
+          "description": "Developer evaluation for Manufactured",
+          "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        },
+        "basePath": "/",
+        "tags": [
+
+        ],
+        "schemes": ["http"],
+        "consumes": ["application/json"],
+        "produces": ["application/json"]
+      },  
+    "apis":["docs/swagger-api-docs.js"]  
+}

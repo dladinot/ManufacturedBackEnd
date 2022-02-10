@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  node:
+    build: .
+    ports:
+      - "3015:3015"     
+    env_file: 
+        - .env      
+
